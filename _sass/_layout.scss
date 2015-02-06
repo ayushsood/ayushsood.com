@@ -1,0 +1,128 @@
+html, body {
+  background-color: #FFFFFD;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  .site-header {
+    font-weight: 600;
+
+    #logo-center {
+      font-size: 64px;
+      left: 0;
+      margin-top: -75px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+    }
+
+    #logo {
+      font-size: 30px;
+      left: 10px;
+      position: absolute;
+      top: 10px;
+    }
+
+    .highlight {
+      color: #777;
+    }
+  }
+
+  .home {
+
+    #circle-container {
+      background-color: #777;
+      display: none;
+      height: 300px;
+      left: 50%;
+      margin: -175px 0 0 -150px;
+      position: absolute;
+      top: 50%;
+      width: 300px;
+
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border-radius: 150px;
+
+      .text-container {
+        color: white;
+        font-size: 150px;
+        padding-top: 75px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    input, textarea {
+      border: 1px solid #E5E5E5;
+      color: #999;
+      padding: 10px;
+      width: 250px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+      -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    }
+
+    textarea {
+      height: 100px;
+      width: 250px;
+    }
+
+    input[type="submit"] {
+      color: #FFF;
+      background-color: #555;
+      width: 275px;
+    }
+
+    #contact {
+      display: none;
+
+      left: 50%;
+      margin-top: -250px;
+      margin-left: -137px;
+      position: absolute;
+      top: 50%;
+
+      a {
+        left: -75px;
+        position: relative;
+        top: 25px;
+
+        span {
+          font-size: 11px;
+          left: 2px;
+          position: relative;
+          top: -2px;
+        }
+      }
+    }
+  }
+
+  .site-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+

@@ -1,0 +1,10 @@
+# Site settings
+title: Ayush Sood
+email: me@ayushsood.com
+description: >
+  Personal website for Ayush Sood.
+baseurl: ""
+url: "http://ayushsood.com"
+
+# Build settings
+markdown: kramdown
