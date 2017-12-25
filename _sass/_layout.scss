@@ -48,11 +48,14 @@ html, body {
   .home {
 
     #circle-container {
+      align-items: center;
       background-color: #777;
-      display: none;
+      display: flex;
       height: 300px;
+      justify-content: center;
       left: 50%;
       margin: -175px 0 0 -150px;
+      opacity: 0;
       position: absolute;
       top: 50%;
       width: 300px;
@@ -64,9 +67,6 @@ html, body {
       .text-container {
         color: white;
         font-size: 150px;
-        padding-top: 75px;
-        text-align: center;
-        width: 100%;
       }
     }
 
