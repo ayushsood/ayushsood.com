@@ -1,0 +1,33 @@
+:root {
+  --code-bg: #fff;
+  --link-color: var(--primary);
+  --link-hover-color: #ff374a;
+  --link-underline-shadow: 0 1px 0 var(--link-color);
+  --link-hover-underline-color: #ff374a;
+  --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+}
+
+.post-entry {
+  border: 0;
+}
+
+.comments-separator {
+  height: 0;
+}
+
+.logo {
+  flex: 1;
+}
+
+.header-social-icons {
+  display: flex;
+}
+
+.header-social-icons svg {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.header-social-icons svg:hover {
+  color: var(--link-hover-color);
+}

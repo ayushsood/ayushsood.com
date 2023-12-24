@@ -1,0 +1,26 @@
+baseURL: 'https://ayushsood.com/'
+languageCode: 'en-us'
+title: 'Ayush Sood'
+theme: 'PaperModX'
+
+params:
+  env: production
+  disableAnchoredHeadings: true
+
+  ShowShareButtons: true
+  ShowWordCount: true
+  ShowReadingTime: true
+  EnableImageZoom: true
+  EnableInstantClick: true
+  disableThemeToggle: true
+
+  logo:
+    text: "ayushsood"
+  
+  disableScrollToTop: true
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
