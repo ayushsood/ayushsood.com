@@ -10,7 +10,7 @@ I've been in the process of setting up Home Labs for both myself and my parents.
 
 #### Why?
 
-When you have a Homel Lab behind a consumer internet connection, your public IP changes, which makes it hard for other services like a VPN client or 3rd party webhook to ping your server.
+When you have a Home Lab behind a consumer internet connection, your public IP changes, which makes it hard for other services like a VPN client or 3rd party webhook to ping your server.
 
 #### What?
 
